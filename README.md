@@ -3,7 +3,7 @@
 First of All Here is the Deployed Link of the backend server of the assignment which is hosted on vercel</br>
 --> https://utility-labs-assignment.vercel.app/</br>
 </br>
-INSTALLATION PROCESS
+INSTALLATION PROCESS</br>
 1. Clone the repo in your local</br>
 2. run command in terminal "npm i"</br>
 3. now run command "npm run dev" to run it in your local environment it will work on PORT 4000 as it is mentioned in config file ( you can check the env file for environment variables)</br>
