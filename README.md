@@ -24,70 +24,71 @@ POST /api/auth/register        --> https://utility-labs-assignment.vercel.app/ap
               }
 </br>
 POST /api/auth/login           --> https://utility-labs-assignment.vercel.app/api/auth/login or For Local Environment --> http://localhost:4000/api/auth/login </br>
-  ----------> sample JSON input for this route <-------------
-              {
-                  "email":"sachin@gmail.com",
-                  "password": "sachin"
-              }
+  ----------> sample JSON input for this route <-------------</br>
+              {</br>
+                  "email":"sachin@gmail.com",</br>
+                  "password": "sachin"</br>
+              }</br>
 </br>
-******-------- AUTH API'S ENDED ------******
-
-******-------- BUYER API'S START------******
-
-GET /api/buyer/list-of-sellers --> https://utility-labs-assignment.vercel.app/api/buyer/list-of-sellers or For Local Environment --> http://localhost:4000/api/buyer/list-of-sellers
- 
-GET /api/buyer/seller-catalog/:seller_id --> https://utility-labs-assignment.vercel.app/api/buyer/seller-catalog/{seller_id} or For Local Environment --> http://localhost:4000/api/buyer/seller-catalog/{seller_id}
-
-POST /api/buyer/create-order/:seller_id -->  https://utility-labs-assignment.vercel.app/api/buyer/create-order/{seller_id} or For Local Environment --> http://localhost:4000/api/buyer/create-order/{seller_id}
- ----------> sample JSON input for this route <-------------
-              {
-                  "items":[
-                      {
-                          "orderName":"Phone",
-                          "orderPrice":5555
-                      },
-                       {
-                          "orderName":"Speaker",
-                          "orderPrice":879
-                      },
-                       {
-                          "orderName":"Ginger",
-                          "orderPrice":550
-                      }
-                    
-                  ]
-              }
-******-------- BUYER API'S ENDED------******
-
-******-------- SELLER API'S START------******
-
-POST /api/seller/create-catalog --> https://utility-labs-assignment.vercel.app/api/seller/create-catalog  or For Local Environment --> http://localhost:4000/api/seller/create-catalog
- ----------> sample JSON input for this route <-------------
-              {
-              "items": [
-                  {
-                      "catalogName": "Item 1",
-                      "catalogDescription": "Description for Item 1",
-                      "catalogPrice": 19.99
-                  },
-                  {
-                      "catalogName": "Item 2",
-                      "catalogDescription": "Description for Item 2",
-                      "catalogPrice": 29.99
-                  },
-                  {
-                      "catalogName": "Item 3",
-                      "catalogDescription": "Description for Item 3",
-                      "catalogPrice": 39.99
-                  },
-                  {
-                      "catalogName": "new Item",
-                      "catalogDescription": "Description for Item 1",
-                      "catalogPrice": 19.99
-                  }
-              ]
-          }
-
-GET /api/seller/orders --> https://utility-labs-assignment.vercel.app/api/seller/orders  or For Local Environment --> http://localhost:4000/api/seller/orders
-
-******-------- SELLER API'S ENDED------******
+******-------- AUTH API'S ENDED ------******</br>
+</br>
+******-------- BUYER API'S START------******</br>
+</br>
+GET /api/buyer/list-of-sellers --> https://utility-labs-assignment.vercel.app/api/buyer/list-of-sellers or For Local Environment --> http://localhost:4000/api/buyer/list-of-sellers</br>
+ </br>
+GET /api/buyer/seller-catalog/:seller_id --> https://utility-labs-assignment.vercel.app/api/buyer/seller-catalog/{seller_id} or For Local Environment --> http://localhost:4000/api/buyer/seller-catalog/{seller_id}</br>
+</br>
+POST /api/buyer/create-order/:seller_id -->  https://utility-labs-assignment.vercel.app/api/buyer/create-order/{seller_id} or For Local Environment --> http://localhost:4000/api/buyer/create-order/{seller_id}</br>
+ ----------> sample JSON input for this route <-------------</br>
+              {</br>
+                  "items":[</br>
+                      {</br>
+                          "orderName":"Phone",</br>
+                          "orderPrice":5555</br>
+                      },</br>
+                       {</br>
+                          "orderName":"Speaker",</br>
+                          "orderPrice":879</br>
+                      },</br>
+                       {</br>
+                          "orderName":"Ginger",</br>
+                          "orderPrice":550</br>
+                      }</br>
+                    </br>
+                  ]</br>
+              }</br>
+******-------- BUYER API'S ENDED------******</br>
+</br>
+******-------- SELLER API'S START------******</br>
+</br>
+POST /api/seller/create-catalog --> https://utility-labs-assignment.vercel.app/api/seller/create-catalog  or For Local Environment --> http://localhost:4000/api/seller/create-catalog</br>
+ ----------> sample JSON input for this route <-------------</br>
+              {</br>
+              "items": [</br>
+                  {</br>
+                      "catalogName": "Item 1",</br>
+                      "catalogDescription": "Description for Item 1",</br>
+                      "catalogPrice": 19.99</br>
+                  },</br>
+                  {</br>
+                      "catalogName": "Item 2",</br>
+                      "catalogDescription": "Description for Item 2",</br>
+                      "catalogPrice": 29.99</br>
+                  },</br>
+                  {</br>
+                      "catalogName": "Item 3",</br>
+                      "catalogDescription": "Description for Item 3",</br>
+                      "catalogPrice": 39.99</br>
+                  },</br>
+                  {</br>
+                      "catalogName": "new Item",</br>
+                      "catalogDescription": "Description for Item 1",</br>
+                      "catalogPrice": 19.99</br>
+                  }</br>
+              ]</br>
+          }</br>
+</br>
+GET /api/seller/orders --> https://utility-labs-assignment.vercel.app/api/seller/orders  or For Local Environment --> http://localhost:4000/api/seller/orders</br>
+</br>
+******-------- SELLER API'S ENDED------******</br>
+</br>
