@@ -1,27 +1,27 @@
-# utilityLabsAssignment
-
-First of All Here is the Deployed Link of the backend server of the assignment which is hosted on vercel
---> https://utility-labs-assignment.vercel.app/
-
+# utilityLabsAssignment</br>
+</br>
+First of All Here is the Deployed Link of the backend server of the assignment which is hosted on vercel</br>
+--> https://utility-labs-assignment.vercel.app/</br>
+</br>
 INSTALLATION PROCESS
-1. Clone the repo in your local
-2. run command in terminal "npm i"
-3. now run command "npm run dev" to run it in your local environment it will work on PORT 4000 as it is mentioned in config file ( you can check the env file for environment variables)
-
-
+1. Clone the repo in your local</br>
+2. run command in terminal "npm i"</br>
+3. now run command "npm run dev" to run it in your local environment it will work on PORT 4000 as it is mentioned in config file ( you can check the env file for environment variables)</br>
+</br>
+</br>
 and here are the Endpoints of all the api's I have created
-
-******-------- AUTH API'S START ------******
-
+</br>
+******-------- AUTH API'S START ------******</br>
+</br>
 POST /api/auth/register        --> https://utility-labs-assignment.vercel.app/api/auth/register or For Local Environment --> http://localhost:4000/api/auth/register   </br>
-  ----------> sample JSON input for this route <-------------
-              {
-                  "firstName": "Sachin",
-                  "lastName":"Singh",
-                  "email":"sachin@gmail.com",
-                  "password":"sachin",
-                  "role":"buyer"
-              }
+  ----------> sample JSON input for this route <------------- </br>
+              {</br>
+                  "firstName": "Sachin",</br>
+                  "lastName":"Singh",</br>
+                  "email":"sachin@gmail.com",</br>
+                  "password":"sachin",</br>
+                  "role":"buyer"</br>
+              }</br>
 POST /api/auth/login           --> https://utility-labs-assignment.vercel.app/api/auth/login or For Local Environment --> http://localhost:4000/api/auth/login
   ----------> sample JSON input for this route <-------------
               {
