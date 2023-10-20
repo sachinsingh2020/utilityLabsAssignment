@@ -13,7 +13,7 @@ and here are the Endpoints of all the api's I have created
 
 ******-------- AUTH API'S START ------******
 
-POST /api/auth/register        --> https://utility-labs-assignment.vercel.app/api/auth/register or For Local Environment --> http://localhost:4000/api/auth/register </br>
+POST /api/auth/register        --> https://utility-labs-assignment.vercel.app/api/auth/register or For Local Environment --> http://localhost:4000/api/auth/register   </br>
   ----------> sample JSON input for this route <-------------
               {
                   "firstName": "Sachin",
