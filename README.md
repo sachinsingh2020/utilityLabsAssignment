@@ -21,13 +21,15 @@ POST /api/auth/register        --> https://utility-labs-assignment.vercel.app/ap
                   "email":"sachin@gmail.com",</br>
                   "password":"sachin",</br>
                   "role":"buyer"</br>
-              }</br>
-POST /api/auth/login           --> https://utility-labs-assignment.vercel.app/api/auth/login or For Local Environment --> http://localhost:4000/api/auth/login
+              }
+</br>
+POST /api/auth/login           --> https://utility-labs-assignment.vercel.app/api/auth/login or For Local Environment --> http://localhost:4000/api/auth/login </br>
   ----------> sample JSON input for this route <-------------
               {
                   "email":"sachin@gmail.com",
                   "password": "sachin"
               }
+</br>
 ******-------- AUTH API'S ENDED ------******
 
 ******-------- BUYER API'S START------******
